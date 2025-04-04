@@ -5,12 +5,74 @@
     <link>http://localhost:1313/post/</link>
       <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Blog</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 21 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 04 Apr 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
       <title>Blog</title>
       <link>http://localhost:1313/post/</link>
     </image>
+    
+    <item>
+      <title>Lightweight markup languages</title>
+      <link>http://localhost:1313/post/2post/</link>
+      <pubDate>Fri, 04 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2post/</guid>
+      <description>&lt;p&gt;A lightweight markup language is a markup language designed to have a minimal syntax and to be easier for humans to read than traditional markup languages. Some, like asciidoc and the language of this very wiki, have comparatively many features, while others, e.g., that of the Thunderbird email client, which interprets email messages following a convention, are more rudimentary.&lt;/p&gt;
+&lt;p&gt;What is the use of a lightweight markup language&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;As software document format
+Many other development community, like python, already uses a lightweight markup language for software documents. Typical uses are&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;for developers to author help files&lt;/li&gt;
+&lt;li&gt;to use in comment in source code to be later extracted to form code reference document.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In former case, there should be a widget to display the markup. In latter case, the document should be able to be translated to HTML.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;A WYSIWYG editor widget&amp;rsquo;s content format
+A WYSIWYG editor can save its content in a lightweight markup language. In this case lightweight markup language is transparent to the users. This case is seen as GUI bbcode editor that is sometimes used on the web, but no implementation in tcl yet have been seen.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Directly usable to the end users
+This case is frequently seen on online forums, like BBcode, and in wiki, like in tclerswiki. End user is supposed to learn and compose using this wiki language.&lt;/p&gt;
+&lt;p&gt;Which lightweight markup languages have tcl tools supporting them?
+So far, most TCL lightweight markup language tools either require users define their own markup language, like the library included in tkoutline, or uses a markup language defined by the tool author, like &amp;ldquo;put-text&amp;rdquo; used in tkcvs, which defined a few tags including &amp;ldquo;&lt;h1&gt;&amp;rdquo;, &amp;ldquo;&lt;cmp&gt;&amp;rdquo; and so forth. There isn&amp;rsquo;t a tool that uses a well-recognized lightweight markup language, like asciidoc or Textile .&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A well-recognized lightweight markup language usually has many tools designed to process it, thus it is easier to compose a document in the language and re-use it, e.g. in both &amp;ldquo;Help&amp;rdquo; menu and in Unix man page. Thanks to a lack of such tools in tcl, at the moment, documents already written in a well-recognized markup language cannot be displayed in tcl widgets directly.&lt;/p&gt;
+&lt;p&gt;What features are there in lightweight markup language tools?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Can represent / recognize bold and italic. This is a basic feature of markup language, thus not mentioned in feature table. Every tool supports this.&lt;/li&gt;
+&lt;li&gt;Display in rich text format as in htext&lt;/li&gt;
+&lt;li&gt;Translate to HTML, as in tclerswiki&lt;/li&gt;
+&lt;li&gt;WYSIWYG editing, not seen in any tcl markup language tool&lt;/li&gt;
+&lt;li&gt;Support of Images (I), Links (L), Tables (T) and Headings (H)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;List of Languages&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;asciidoc&lt;/li&gt;
+&lt;li&gt;Creole , an attempt to create a common wiki markup&lt;/li&gt;
+&lt;li&gt;htext&lt;/li&gt;
+&lt;li&gt;kiwi&lt;/li&gt;
+&lt;li&gt;Markdown
+-   MultiMarkdown (MMD): a superset of Markdown&lt;/li&gt;
+&lt;li&gt;Textile&lt;/li&gt;
+&lt;li&gt;tkoutline&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>My second blog</title>
+      <link>http://localhost:1313/post/2blog/</link>
+      <pubDate>Fri, 04 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2blog/</guid>
+      <description>&lt;p&gt;During the last week, I completed lab No.6 and 7 and, also, checked the lab work of other students.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Git version control</title>

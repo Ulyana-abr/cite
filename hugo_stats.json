@@ -1,7 +1,6 @@
 {
   "htmlElements": {
     "tags": [
-      "?xml",
       "a",
       "article",
       "aside",
@@ -9,6 +8,7 @@
       "body",
       "button",
       "circle",
+      "cmp",
       "code",
       "details",
       "div",
@@ -224,7 +224,6 @@
       "h-100",
       "h-24",
       "h-28",
-      "h-3",
       "h-3.5",
       "h-4",
       "h-48",
@@ -260,7 +259,6 @@
       "hover:text-neutral-300",
       "hover:text-primary",
       "hover:text-primary-700",
-      "hover:underline",
       "inline-block",
       "inline-flex",
       "inset-0",
@@ -355,7 +353,6 @@
       "mr-2",
       "mr-4",
       "ms-2",
-      "ms-2.5",
       "ms-6",
       "mt-1",
       "mt-1.5",
@@ -457,7 +454,6 @@
       "rtl:-ml-4",
       "rtl:-rotate-180",
       "rtl:hidden",
-      "rtl:rotate-[270deg]",
       "rtl:text-left",
       "scale-95",
       "scroll-my-6",
@@ -480,8 +476,6 @@
       "space-y-16",
       "space-y-3",
       "spoiler",
-      "st0",
-      "st1",
       "sticky",
       "stroke-current",
       "text-1xl",
@@ -539,7 +533,6 @@
       "w-100",
       "w-24",
       "w-28",
-      "w-3",
       "w-3.5",
       "w-4",
       "w-5",
@@ -558,7 +551,6 @@
       "z-30"
     ],
     "ids": [
-      "Layer_1",
       "about-me",
       "code",
       "did-you-find-this-page-helpful-consider-sharing-it-",
