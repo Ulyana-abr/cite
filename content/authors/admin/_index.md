@@ -31,20 +31,22 @@ organizations:
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mailto: 1132246782@pfur.ru'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
+  - icon: academicons/eLibrary
+    url: https://elibrary.ru/project_user_office.asp
+  - icon: academicons/Mendeley
+    url: https://www.mendeley.com/settings/account/
   - icon: brands/github
-    url: https://github.com/gcushen
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/
+    url: https://github.com/Ulyana-abr
+  - icon: academicons/ResearchGate
+    url: https://www.researchgate.net/profile/Ulyana-Abramova?ev=hdr_xprf
+  - icon: academicons/Academia.edu
+    url: https://independent.academia.edu/UlyanaAbramova
+  - icon: academicons/arXiv
+    url: https://arxiv.org/user/
   - icon: academicons/orcid
-    url: https://orcid.org/
+    url: https://orcid.org/my-orcid?emailVerified=true&primaryEmailUnverified=true&orcid=0009-0006-8373-1045
 
 interests:
   - Maths
