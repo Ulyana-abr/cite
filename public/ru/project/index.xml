@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects | Hugo Academic CV Theme</title>
+    <link>http://localhost:1313/ru/project/</link>
+      <atom:link href="http://localhost:1313/ru/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>ru</language><lastBuildDate>Sat, 17 May 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
+      <title>Projects</title>
+      <link>http://localhost:1313/ru/project/</link>
+    </image>
+    
+    <item>
+      <title>Мой проект</title>
+      <link>http://localhost:1313/ru/project/external_course/</link>
+      <pubDate>Sat, 17 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ru/project/external_course/</guid>
+      <description>&lt;p&gt;Это мой проект по прохождению внешнего курса, в котором я повторила, как работать с ОС Linux&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>новый_проект</title>
+      <link>http://localhost:1313/ru/project/new_project/</link>
+      <pubDate>Fri, 16 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ru/project/new_project/</guid>
+      <description>&lt;p&gt;Мой новый проект это мой сайт с некоторыми обновлениями.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

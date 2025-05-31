@@ -34,6 +34,24 @@
     </item>
     
     <item>
+      <title>My fifth blog</title>
+      <link>http://localhost:1313/post/5blog/</link>
+      <pubDate>Fri, 30 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/5blog/</guid>
+      <description>&lt;p&gt;During last week, I completed lab. No.14 and the 6th step of personal project.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>My project</title>
+      <link>http://localhost:1313/project/external_course/</link>
+      <pubDate>Sat, 17 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/external_course/</guid>
+      <description>&lt;p&gt;This is  my project of making external course, in which I repeat how to deal with OC Linux&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>My fourth blog</title>
       <link>http://localhost:1313/post/4blog/</link>
       <pubDate>Fri, 16 May 2025 00:00:00 +0000</pubDate>
@@ -53,35 +71,6 @@
     </item>
     
     <item>
-      <title>Языки научного программирования</title>
-      <link>http://localhost:1313/post/4post/</link>
-      <pubDate>Fri, 16 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/4post/</guid>
-      <description>&lt;p&gt;В компьютерном программировании , научный язык программирования может относиться к двум степеням той же концепции.&lt;/p&gt;
-&lt;p&gt;В широком смысле научный язык программирования - это язык программирования, который широко используется в вычислительной науке и вычислительной математике .&lt;/p&gt;
-&lt;p&gt;В этом смысле C / C ++ и Python можно рассматривать как языки научного программирования. В более строгом смысле научный язык программирования - это язык, который разработан и оптимизирован для использования математических формул и матриц . Такие языки характеризуются не только наличием библиотек, выполняющих математические или научные функции, но и синтаксисом самого языка. Например, ни C ++, ни Python не имеют встроенных типов матриц или функций для матричной арифметики (сложение, умножение и т. Д.); вместо этого эта функция доступна через стандартные библиотеки. Научные языки программирования в сильном смысле включают ALGOL , APL , Fortran , J , Юлю , Maple , MATLAB и R .&lt;/p&gt;
-&lt;p&gt;Языки научного программирования не следует путать с научным языком в целом, который свободно относится к более высоким стандартам точности, правильности и краткости, ожидаемым от практикующих научный метод .&lt;/p&gt;
-&lt;p&gt;Примеры
-Линейная алгебра
-Языки научного программирования предоставляют возможности для работы с линейной алгеброй . Например, следующая программа Julia решает систему линейных уравнений :&lt;/p&gt;
-&lt;p&gt;A = rand(20, 20) # A is a 20x20 matrix&lt;/p&gt;
-&lt;p&gt;b = rand(20) # b is a 20-element vector&lt;/p&gt;
-&lt;p&gt;x = A\b # x is the solution to A*x = b&lt;/p&gt;
-&lt;p&gt;Работа с большими векторами и матрицами - ключевая особенность этих языков, поскольку линейная алгебра закладывает основу математической оптимизации , которая, в свою очередь, позволяет использовать основные приложения, такие как глубокое обучение .&lt;/p&gt;
-&lt;p&gt;Математическая оптимизация
-В научном языке программирования мы можем вычислять оптимум функции с синтаксисом, близким к математическому языку. Например, следующий код Джулии находит минимум полинома .&lt;/p&gt;
-&lt;p&gt;using Optim&lt;/p&gt;
-&lt;p&gt;P(x,y) = x&lt;sup&gt;2 - 3x*y + 5y&lt;/sup&gt;2 - 7y + 3&lt;/p&gt;
-&lt;p&gt;z₀ = [ 0.0&lt;/p&gt;
-&lt;p&gt;0.0 ] # starting point for optimization algorithm o&lt;/p&gt;
-&lt;p&gt;ptimize(z -&amp;gt; P(z…), z₀, Newton();&lt;/p&gt;
-&lt;p&gt;autodiff = :forward)&lt;/p&gt;
-&lt;p&gt;В этом примере используется метод минимизации Ньютона . Современные языки научного программирования будут использовать автоматическое дифференцирование для вычисления градиентов и гессианов функции, заданной в качестве входных данных; ср. дифференцируемое программирование . Здесь для этой задачи выбрана автоматическая прямая дифференциация. Старые языки научного программирования, такие как почтенный Фортран, потребовали бы от программиста передать рядом с функцией, которая должна быть оптимизирована, функцию, которая вычисляет градиент, и функцию, которая вычисляет гессиан.&lt;/p&gt;
-&lt;p&gt;Чем больше знаний о функции, которую необходимо минимизировать, тем больше можно использовать более эффективные алгоритмы. Например, выпуклая оптимизация обеспечивает более быстрые вычисления, когда функция является выпуклой, квадратичное программирование обеспечивает более быстрые вычисления, когда функция не более чем квадратична по своим переменным, и линейное программирование, когда функция максимально линейна.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>My third blog</title>
       <link>http://localhost:1313/post/3blog/</link>
       <pubDate>Tue, 29 Apr 2025 00:00:00 +0000</pubDate>
@@ -91,49 +80,66 @@
     </item>
     
     <item>
-      <title>Оформление отчёта</title>
+      <title>Creating a report</title>
       <link>http://localhost:1313/post/3post/</link>
-      <pubDate>Tue, 29 Apr 2025 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 16 Apr 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/post/3post/</guid>
-      <description>&lt;p&gt;Лабораторная работа является небольшой научно-исследовательской работой, которую и оформлять следует по всем утверждённым требованиям. При подготовке отчета по лабораторной работе вы освоите ряд важных элементов, которые в дальнейшем пригодятся вам при написании курсовой и дипломной работы.&lt;/p&gt;
-&lt;p&gt;Структура отчёта
-Согласно ГОСТ 7.32-2001, любая научно-исследовательская работа должна обязательно содержать следующие элементы:&lt;/p&gt;
+      <description>&lt;p&gt;Laboratory work is a small scientific research work, which should be executed according to all approved requirements. When preparing a lab report, you will master a number of important elements that will be useful to you in the future when writing term papers and theses.&lt;/p&gt;
+&lt;p&gt;The structure of the report According to GOST 7.32-2001, any scientific research work must necessarily contain the following elements:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;титульный лист&lt;/li&gt;
-&lt;li&gt;реферат&lt;/li&gt;
-&lt;li&gt;введение&lt;/li&gt;
-&lt;li&gt;основную часть&lt;/li&gt;
-&lt;li&gt;заключение&lt;/li&gt;
+&lt;li&gt;The title page&lt;/li&gt;
+&lt;li&gt;report&lt;/li&gt;
+&lt;li&gt;introduction&lt;/li&gt;
+&lt;li&gt;the main part&lt;/li&gt;
+&lt;li&gt;conclusion&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Также ГОСТ рекомендует включить в работу и такие элементы:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;список исполнителей&lt;/li&gt;
-&lt;li&gt;содержание&lt;/li&gt;
-&lt;li&gt;нормативные ссылки&lt;/li&gt;
-&lt;li&gt;определения&lt;/li&gt;
-&lt;li&gt;обозначения и сокращения&lt;/li&gt;
-&lt;li&gt;список использованных источников&lt;/li&gt;
-&lt;li&gt;приложения&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Если вы проводите сложную работу, выполняемую в несколько этапов, то вам может понадобиться включить в работу часть или все элементы второго списка.&lt;/p&gt;
-&lt;p&gt;Содержание основных элементов отчета:&lt;/p&gt;
-&lt;p&gt;Титульный лист.
-Первый лист работы оформляется строго по образцу, который обычно приводится в методических пособиях по вашему предмету. В нем не просто требуется указать такие элементы, как название образовательного учреждения, вид работы и сведения об исполнителе, но и расположить их в строгом соответствии со стандартами.&lt;/p&gt;
-&lt;p&gt;Реферат.
-Реферат фактически является кратким представлением всего вашего отчета и содержит ряд статистических сведений. В нем нужно указать количество частей, страниц работы, иллюстраций, приложений, таблиц, использованных литературных источников и приложений. Здесь же приводится перечень ключевых слов работы и собственно текст реферата. Последний подразумевает основные элементы работы от поставленных целей до результатов и рекомендаций по их внедрению. В практике вузов в отчеты по лабораторным работам реферат обычно не включают.&lt;/p&gt;
-&lt;p&gt;Введение.
-Во введении типовой лабораторной работы обычно прописывают цели проводимого исследования и задачи, выполнение которых поможет достичь поставленных целей. В то же время существуют работы, в которых студенты становятся настоящими первооткрывателями. Приходилось ли вам хотя бы однажды испытывать чувство крайнего любопытства и нетерпения при проведении лабораторной работы? Ощущать, что буквально через пару минут вы найдете ответ на вопрос, на который еще никто и никогда не находил ответа? Именно для таких исследований пишется развернутое введение с доказательством актуальности и новизны изучаемой темы. Чтобы действительно провести исследование в той области, в которой, как говорится, еще неступала нога человека, во введении вам понадобится привести оценку современного состояния рассматриваемой проблемы и обосновать необходимость ее решения.&lt;/p&gt;
-&lt;p&gt;Основная часть.
-Так как в разных вузах и в разных дисциплинах существуют свои тонкости проведения лабораторных работ, содержание основной части подробно описывают в соответствующих методичках. Важно, чтобы в этом разделе работы была отражена ее суть, описана методика и результаты проделанной работы.&lt;/p&gt;
-&lt;p&gt;В основной части прописывают следующие элементы:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;цели проводимого исследования;&lt;/li&gt;
-&lt;li&gt;задачи, выполнение которых поможет достичь поставленных целей;&lt;/li&gt;
-&lt;li&gt;ход работы, в котором описываются выполненные действия;&lt;/li&gt;
-&lt;li&gt;прочие разделы, предусмотренные методическими материалами по изучаемой дисциплине.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Заключение.
-В этой части работы вам потребуется сделать выводы по полученным в ходе лабораторной работы результатам. Для этого оцените, насколько полно выполнены поставленные задачи. В сложных работах могут присутствовать и другие элементы, например, рекомендации для дальнейшего применения результатов проведённой работы.&lt;/p&gt;
+&lt;p&gt;GOST also recommends that the following elements be included in the work::&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;list of performers
+content
+regulatory references
+definitions
+designations and abbreviations
+list of used application sources
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If you are carrying out complex work performed in several stages, then you may need to include some or all of the elements of the second list in the work.&lt;/p&gt;
+&lt;p&gt;The content of the main elements of the report:&lt;/p&gt;
+&lt;p&gt;The title page. The first sheet of work is drawn up strictly according to the pattern that is usually given in the manuals on your subject. It not only requires specifying elements such as the name of the educational institution, type of work, and information about the performer, but also arranging them in strict accordance with the standards.&lt;/p&gt;
+&lt;p&gt;Report. The abstract is actually a summary of your entire report and contains a number of statistical information. It should specify the number of parts, pages of the work, illustrations, appendices, tables, used literary sources and appendices. The list of keywords of the paper and the actual text of the abstract are also provided here. The latter implies the main elements of the work, from the goals set to the results and recommendations for their implementation. In the practice of universities, an abstract is usually not included in laboratory reports.&lt;/p&gt;
+&lt;p&gt;Introduction. In the introduction of a typical laboratory work, the goals of the research and the tasks that will help achieve the goals are usually prescribed. At the same time, there are works in which students become real pioneers. Have you ever felt a sense of extreme curiosity and impatience when doing laboratory work? Do you feel that in just a couple of minutes you will find the answer to a question that no one has ever found an answer to? It is for such studies that a detailed introduction is written to prove the relevance and novelty of the topic being studied. In order to really conduct research in an area in which, as they say, no human has ever set foot, in the introduction you will need to provide an assessment of the current state of the problem under consideration and justify the need to solve it.&lt;/p&gt;
+&lt;p&gt;The main part. Since different universities and disciplines have their own subtleties of conducting laboratory work, the content of the main part is described in detail in the relevant manuals. It is important that this section of the work reflects its essence, describes the methodology and results of the work done.&lt;/p&gt;
+&lt;p&gt;The main part prescribes the following elements:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;objectives of the study;
+tasks that will help you achieve your goals;
+the progress of the work, which describes the actions performed;
+other sections provided by the methodological materials on the discipline under study.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Conclusion. In this part of the work, you will need to draw conclusions from the results obtained during the laboratory work. To do this, evaluate how fully the tasks have been completed. Other elements may be present in complex work, for example, recommendations for further application of the results of the work performed.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Scientific programming languages</title>
+      <link>http://localhost:1313/post/4post/</link>
+      <pubDate>Wed, 16 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/4post/</guid>
+      <description>&lt;p&gt;In computer programming, a scientific programming language can refer to two degrees of the same concept.&lt;/p&gt;
+&lt;p&gt;In a broad sense, a scientific programming language is a programming language that is widely used in computational science and computational mathematics.&lt;/p&gt;
+&lt;p&gt;In this sense, C/C++ and Python can be considered as scientific programming languages. In a stricter sense, a scientific programming language is a language that is designed and optimized to use mathematical formulas and matrices. Such languages are characterized not only by the presence of libraries that perform mathematical or scientific functions, but also by the syntax of the language itself. For example, neither C++ nor Python have built-in matrix types or functions for matrix arithmetic (addition, multiplication, etc.); instead, this function is available through standard libraries. Scientific programming languages in a strong sense include ALGOL , APL, Fortran, J , Julia, Maple, MATLAB , and R.&lt;/p&gt;
+&lt;p&gt;Scientific programming languages should not be confused with scientific language in general, which loosely refers to the higher standards of accuracy, correctness, and brevity expected of practitioners of the scientific method.&lt;/p&gt;
+&lt;p&gt;Examples Linear Algebra Scientific programming languages provide opportunities for working with linear algebra. For example, the following Julia program solves a system of linear equations :&lt;/p&gt;
+&lt;p&gt;A = rand(20, 20) # A is a 20x20 matrix&lt;/p&gt;
+&lt;p&gt;b = rand(20) # b is a 20-element vector&lt;/p&gt;
+&lt;p&gt;x = A\b # x is the solution to A*x = b&lt;/p&gt;
+&lt;p&gt;Working with large vectors and matrices is a key feature of these languages, as linear algebra lays the foundation for mathematical optimization, which, in turn, allows for basic applications such as deep learning.&lt;/p&gt;
+&lt;p&gt;Mathematical optimization In a scientific programming language, we can calculate the optimum of a function with a syntax close to the mathematical language. For example, the following Julia code finds the minimum of a polynomial.&lt;/p&gt;
+&lt;p&gt;using Optim&lt;/p&gt;
+&lt;p&gt;P(x,y) = x2 - 3x*y + 5y2 - 7y + 3&lt;/p&gt;
+&lt;p&gt;z₀ = [ 0.0&lt;/p&gt;
+&lt;p&gt;0.0 ] # starting point for optimization algorithm o&lt;/p&gt;
+&lt;p&gt;ptimize(z -&amp;gt; P(z…), z₀, Newton();&lt;/p&gt;
+&lt;p&gt;autodiff = :forward)&lt;/p&gt;
+&lt;p&gt;This example uses Newton&amp;rsquo;s minimization method. Modern scientific programming languages will use automatic differentiation to calculate gradients and hessians of a function given as input; cf. differentiable programming. Here, automatic direct differentiation is selected for this task. Old scientific programming languages, such as the venerable Fortran, would require the programmer to pass next to the function to be optimized, a function that calculates the gradient, and a function that calculates the hessian.&lt;/p&gt;
+&lt;p&gt;The more knowledge you have about the function that needs to be minimized, the more efficient algorithms you can use. For example, convex optimization provides faster computations when the function is convex, quadratic programming provides faster computations when the function is at most quadratic in its variables, and linear programming when the function is maximally linear.&lt;/p&gt;
 </description>
     </item>
     
@@ -243,30 +249,6 @@ So far, most TCL lightweight markup language tools either require users define t
       <pubDate>Sun, 19 May 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Pandas</title>
-      <link>http://localhost:1313/project/pandas/</link>
-      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/pandas/</guid>
-      <description>&lt;p&gt;Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>PyTorch</title>
-      <link>http://localhost:1313/project/pytorch/</link>
-      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/pytorch/</guid>
-      <description>&lt;p&gt;PyTorch is a Python package that provides tensor computation (like NumPy) with strong GPU acceleration.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>scikit-learn</title>
-      <link>http://localhost:1313/project/scikit/</link>
-      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/scikit/</guid>
-      <description>&lt;p&gt;scikit-learn is a Python module for machine learning built on top of SciPy and is distributed under the 3-Clause BSD license.&lt;/p&gt;</description>
     </item>
     
     <item>

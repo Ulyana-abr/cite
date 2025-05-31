@@ -1,0 +1,7 @@
+<div class="language-switcher">
+  {{ range .Site.Languages }}
+    <a href="{{ .Lang | relLangURL }}" class="{{ if eq .Lang $.Site.Language }}active{{ end }}">
+      {{ .LanguageName }}
+    </a>
+  {{ end }}
+</div>
